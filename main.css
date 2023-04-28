@@ -1,0 +1,62 @@
+/* 
+
+SELECTORS:
+
+'tag selector' (eg body, h1, p). The example above shows the body tag. No need to add any code to the html file.
+
+. = this dot represents the 'class selector'. 
+ithin a 'class' you can add as many properties as you want and then apply 
+that class to whichever element you want within the html file, eg:    <div class="list">
+
+# = id selector. This can be applied to any intended section in the html code, eg:   <h1 id="mainHeader">My Site</h1>
+
+* = selects all elements in the html file. No need to add any code to the html file.
+
+
+4 stages withing an element:
+
+Content 
+Padding
+Border
+Margin
+
+*/
+
+body {
+    background-color: aqua;
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.list {
+    background-color: rgb(202, 202, 159);
+}
+
+.coolText {
+    color: indigo;
+    font-size: 30px;
+}
+
+#mainHeader {
+    color: gold;
+    font-size: 80px;
+}
+
+*{
+    border-color: black;
+    border-style: solid;
+    border width: 3px;
+}
+
+.list ul {
+    background-color: yellow;
+}
+
+
+img {
+    border: 4px solid red;
+    padding: 10px;
+    margin: 30px
+
+}
+
